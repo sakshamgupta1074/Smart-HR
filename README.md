@@ -27,8 +27,8 @@ Trinity
 # Team Details:
 College - Thapar Institute of Engineering and Technology
 
-Shiva Thavani 401703025 (COEM-2022)
+Shiva Thavani - 401703025 (COEM-2022)
 
-Saksham Gupta 401703023 (COEM-2022)
+Saksham Gupta - 401703023 (COEM-2022)
 
-Kritika Ahuja 401703011 (COEM-2022)
+Kritika Ahuja - 401703011 (COEM-2022)
