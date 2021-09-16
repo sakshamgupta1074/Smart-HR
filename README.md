@@ -23,3 +23,8 @@ python app.py
 
 # Made By
 Trinity
+
+# Team Details:
+Saksham Gupta
+Shiva Thavani
+Kritika Ahuja
