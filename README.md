@@ -1,4 +1,4 @@
-# Automated-Resume-Screening-System
+# Smart-HR
 A web app to help employers by analysing resumes and CVs, surfacing candidates that best match the position and filtering out those who don't.
 
 # Description
