@@ -1,20 +1,3 @@
-"""
-Created on March 2018
-@author: 
-# ▒█▀▀█ █▀▀█ █▀▀▄ █▀▀ ▒█▀▀█ █░░█ ▀▀█▀▀ █▀▀ 
-# ▒█░░░ █░░█ █░░█ █▀▀ ▒█▀▀▄ █▄▄█ ░░█░░ █▀▀ 
-# ▒█▄▄█ ▀▀▀▀ ▀▀▀░ ▀▀▀ ▒█▄▄█ ▄▄▄█ ░░▀░░ ▀▀▀ 
-"""
-
-#################################################################################################################################################
-
-
-
-
-# ▒█▀▀█ ▒█▀▀▀ ▒█▀▀▀█ ▒█░▒█ ▒█▀▄▀█ ▒█▀▀▀ 　 ▒█▀▀▀█ ▒█▀▀█ ▒█▀▀█ ▒█▀▀▀ ▒█▀▀▀ ▒█▄░▒█ ▀█▀ ▒█▄░▒█ ▒█▀▀█ 　 ▒█▀▀▀█ ▒█░░▒█ ▒█▀▀▀█ ▀▀█▀▀ ▒█▀▀▀ ▒█▀▄▀█ 
-# ▒█▄▄▀ ▒█▀▀▀ ░▀▀▀▄▄ ▒█░▒█ ▒█▒█▒█ ▒█▀▀▀ 　 ░▀▀▀▄▄ ▒█░░░ ▒█▄▄▀ ▒█▀▀▀ ▒█▀▀▀ ▒█▒█▒█ ▒█░ ▒█▒█▒█ ▒█░▄▄ 　 ░▀▀▀▄▄ ▒█▄▄▄█ ░▀▀▀▄▄ ░▒█░░ ▒█▀▀▀ ▒█▒█▒█ 
-# ▒█░▒█ ▒█▄▄▄ ▒█▄▄▄█ ░▀▄▄▀ ▒█░░▒█ ▒█▄▄▄ 　 ▒█▄▄▄█ ▒█▄▄█ ▒█░▒█ ▒█▄▄▄ ▒█▄▄▄ ▒█░░▀█ ▄█▄ ▒█░░▀█ ▒█▄▄█ 　 ▒█▄▄▄█ ░░▒█░░ ▒█▄▄▄█ ░▒█░░ ▒█▄▄▄ ▒█░░▒█ 
-
 
 """
 ●   A web app to help employers by analysing resumes and CVs, surfacing candidates that best match the position and filtering out those who don't.
@@ -25,8 +8,8 @@ Prerequisites
     Pandas
     Sklearn
     Dash
-Tested on Ubuntu 16.04 LTS amd64 xenial image built on 2017-09-19
-        To Run this code: 
+
+    To Run this code: 
             # python app.py
         Runs on localhost:5000
 """
@@ -41,7 +24,8 @@ from flask import (Flask, json, jsonify, redirect, render_template, request,
 from gensim.summarization import summarize
 from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
 from sklearn.neighbors import NearestNeighbors
-from werkzeug import secure_filename
+# from werkzeug import secure_filename
+from werkzeug.utils import secure_filename
 
 import pdf2txt as pdf
 
